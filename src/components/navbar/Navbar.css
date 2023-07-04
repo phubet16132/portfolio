@@ -1,0 +1,25 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  background: var(--component);
+}
+
+.navbar-item-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.navbar-item {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.navbar-item:hover {
+  color: var(--text-hover);
+  cursor: pointer;
+}

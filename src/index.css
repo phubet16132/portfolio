@@ -1,0 +1,14 @@
+:root {
+  --main: #FAF1E6;
+  --component: #fffaf2;
+  --text: #064420;
+  --text-hover: #279a57;
+  --sub-text: #E4EFE7;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--main);
+  font-family: 'Roboto', sans-serif;
+}

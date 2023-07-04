@@ -1,12 +1,12 @@
+import DefaultLayout from './layouts/default/default'
+
 import './App.css'
 
 function App() {
   return (
-    <>
-      <div>
-        Hello! I am PhuRuji.
-      </div>
-    </>
+    <div>
+      <DefaultLayout/>
+    </div>
   )
 }
 
